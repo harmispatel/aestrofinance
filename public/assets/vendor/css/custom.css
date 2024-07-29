@@ -1,0 +1,155 @@
+.custom-btn, .custom-btn:hover{
+    background-color: #913718;
+    color: #fff;
+}
+.form_button{
+    color: #fff;
+    background-color: #913718;
+}
+.form_button:hover{
+    border-color: #012970;
+    color: #012970;
+}
+.form_box_inr{
+    border: 1px solid #913718;
+    margin-bottom: 15px;
+
+}
+.form_box .form_box_inr:last-child{
+    margin: 0 !important;
+}
+.table-success {
+    background-color: #dff0d8; /* Change to your preferred green background color */
+}
+
+.form_box_info {
+    padding: 15px;
+}
+.form_box_info .select2.select2-container {
+    width: 100% !important;
+    display: block;
+}
+
+.prmission_box .accordion-item {
+    border: 1px solid #012970;
+    margin-bottom: 20px;
+}
+.box_title {
+    background-color: #913718;
+    border-bottom: 1px solid #913718;
+    padding: 10px 15px;
+}
+.box_title h2 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+    color: #fff;
+}
+.card-body {
+    padding: 20px;
+}
+
+
+.loder {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+}
+
+.like_btn,.like_btn:hover{
+    background-color:#012970;
+    border-color: #012970;
+}
+
+.like{
+    background-color: #012970;
+    border-radius: 5px;
+    color: #fff;
+    border-color: #012970;
+}
+.like.active{
+    background-color: green;
+    color: #fff !important;
+    border-color: green;
+
+}
+
+.form_box .nav-justified>.nav-link{
+    border: 1px solid #012970;
+    color: #012970;
+    background: #fff;
+}
+
+.form_box .nav-justified .nav-link:nth-of-type(2){
+    margin: 0 15px;
+}
+
+.form_box .nav-justified>.nav-link.active{
+    background: #012970;
+    color: #fff;
+}
+
+/* gaan date */
+
+.gann_date_main{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.gann_date_head{
+    margin-bottom: 20px;
+}
+
+.gann_date_head_title h4{
+    font-size: 18px;
+    margin: 0;
+    color: #000;
+    font-weight: 600;
+}
+
+.gann_date_head .calculate_btn .btn{
+    padding: 5px 20px;
+    background-color: #eaac5b;
+    color: #913718;
+    font-weight: 600;
+}
+
+.gann_date_field_inr{
+    margin-bottom: 15px;
+}
+
+.gann_date_field_inr .gann_date_degree h4{
+    font-size: 20px;
+    margin: 0;
+    text-align: center;
+    font-weight: 600;
+}
+
+.gann_date_field_inr input,.gann_start_date input{
+    border-color: #913718;
+    color: #913718;
+}
+
+.gann_date_field_inr input:focus,.gann_start_date input:focus{
+    box-shadow: none;
+    border-color: #913718;
+}
+
+
+
+@media (max-width:767px){
+    .form_box_info .table td,.form_box_info .table th,.custom_dt_table .table td{
+        white-space: nowrap;
+    }
+    .new-category,.gann_date_head .calculate_btn{
+        margin-top: 20px;
+    }
+}
